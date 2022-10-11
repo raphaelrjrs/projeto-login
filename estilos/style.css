@@ -37,9 +37,12 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease;
 }
 
-section#login > div#imagen {
+section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/porta.jpg) no-repeat;
     background-size: cover;
