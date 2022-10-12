@@ -39,7 +39,7 @@ section#login {
 
     background-color: white;
     width: 280px;
-    height: 580px;
+    height: 600px;
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 
@@ -49,11 +49,11 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/zeus01.jpeg) no-repeat;
+    background: #5f2c82 url(../imagens/porta.jpg) no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
 
-    height: 230px;
+    height: 200px;
 }
 
 section#login > div#formulario {
@@ -88,9 +88,13 @@ div.campo > label {
     display: none;
 }
 
+div.campo > i.material-icons {
+    padding-top: 5px;
+}
 
 
-input#ient {
+
+input#isalv {
     display: block;
     font-size: 1em;
     width:100%;
@@ -105,51 +109,33 @@ input#ient {
     
 }
 
-input#ient:hover {
+input#isalv:hover {
     background-color: #265553;
 }
 
-a.botao {
+input#ireset {
     display: block;
-    text-align: center;
     font-size: 1em;
     width:100%;
     height:40px;
     margin-top: 5px;
     padding-top: 5px;
-    color: #265553;
-    background-color: white;
-    border: 1px solid #49a09d;
+    background-color:#49a09d ;
+    color:white;
+    border: none;
     border-radius: 5px;
-    text-decoration: none;
+    cursor: pointer;
+    
 }
 
-a.botao:hover {
-    background-color: #83f0ec;
+input#ireset:hover {
+    background-color: #265553;
 }
-a.botao > i {
-    font-size: 0.8em;
-}
+
+
+
 
 input::placeholder{
     background-color: aqua;
 }
 
-input#icria {
-    display: block;
-    font-size: 1em;
-    width:100%;
-    height:40px;
-    margin-top: 5px;
-    padding-top: 5px;
-    background-color:#49a09d ;
-    color:white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    
-}
-
-input#icria:hover {
-    background-color: #265553;
-}
