@@ -34,17 +34,15 @@ section#login {
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
-
     background-color: white;
     width: 280px;
     height: 580px;
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
-
     transition: width 0.3s, heigth 0.3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -52,7 +50,6 @@ section#login > div#imagem {
     background: #5f2c82 url(../imagens/zeus01.jpeg) no-repeat;
     background-size: cover;
     background-position: top;
-
     height: 230px;
 }
 
@@ -75,10 +72,11 @@ div#formulario > p {
 
 form > div.campo {
     background-color: #5f2c82;
+    border: 2px solid #5f2c82 ;
     display: block;
     width:100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 
 }
@@ -86,6 +84,38 @@ form > div.campo {
 div.campo > label {
 
     display: none;
+}
+
+div.campo > i {
+    color: white;
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > i#olho {
+    cursor: pointer;
+    color:grey;
+    position: relative;
+    top:-140%;
+    left: 80%;
+    
+}
+
+div.campo > input {
+    background-color: #83f0ec;
+    font-size: 1em;
+    width:calc(100% - 45px) ;
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-13px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 
@@ -131,9 +161,7 @@ a.botao > i {
     font-size: 0.8em;
 }
 
-input::placeholder{
-    background-color: aqua;
-}
+
 
 input#icria {
     display: block;

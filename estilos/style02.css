@@ -49,9 +49,18 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/porta.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/zeus01.jpeg) no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
+
+    height: 200px;
+}
+
+section#login > div#video01 {
+    display: block;
+    background: #5f2c82 url(..) no-repeat;
+    background-size: cover;
+    background-position: top;
 
     height: 200px;
 }
@@ -88,8 +97,50 @@ div.campo > label {
     display: none;
 }
 
-div.campo > i.material-icons {
-    padding-top: 5px;
+div.campo > i#olho {
+    cursor: pointer;
+    color:grey;
+    position: relative;
+    top:-110%;
+    left: 80%;
+    
+}
+
+div.campo > i#olho02 {
+    cursor: pointer;
+    color:grey;
+    position: relative;
+    top:-110%;
+    left: 80%;
+    
+}
+
+
+
+div.campo > i#normal {
+    color: white;
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+
+
+div.campo > input {
+    background-color: #83f0ec;
+    font-size: 1em;
+    width:calc(100% - 45px) ;
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-11px);
+
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 
@@ -135,7 +186,5 @@ input#ireset:hover {
 
 
 
-input::placeholder{
-    background-color: aqua;
-}
+
 
